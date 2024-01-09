@@ -1,0 +1,67 @@
+
+
+/*
+Author: XpeedStudio
+Author URI: http://themeforest.net/user/XpeedStudio/portfolio
+*/
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    body {
+        font-size: 15px;
+    }
+	.home-content h1 {
+    font-size: 48px;
+	}
+	.home-content p {
+    font-size: 21px;
+	}
+	.portfolio-wrapper2 .portfolio-item.width-img {
+    height: 198px;
+	}
+
+
+}
+
+/* Portrait tablets and small desktops */
+@media  (max-width: 991px) {
+    html {
+        font-size: 80%;
+    }
+	.about-content h4 {
+    font-size: 14px;
+	}
+
+	.contact-area {
+    padding: 60px 40px 124px 40px;
+	}
+
+}
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    html {
+        font-size: 50%;
+    }
+	.home-content h1 {
+    font-size: 46px;
+	}
+	.home-content p {
+    font-size: 5px;
+	}
+	.about-content a {
+    margin-bottom: 20px;
+	}
+	.experience-content {
+    margin-bottom: 20px;
+	}
+
+	.contact-area {
+    margin-bottom: 20px;
+	}
+	.features-bg {
+    margin: 0 auto;
+    margin-bottom: 20px;
+	}
+
+
+}
